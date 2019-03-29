@@ -35,6 +35,7 @@ module.exports = {
     'prettier/prettier': 'error',
     'react-hooks/rules-of-hooks': 'error',
     'react/jsx-sort-props': 0,
+    'react/display-name': 'warn',
     'react/prop-types': 'warn',
     'react/jsx-no-bind': 0,
     'react/jsx-handler-names': 'warn',

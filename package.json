@@ -1,5 +1,5 @@
 {
-  "name": "gerard-eslint-config",
+  "name": "eslint-config-gerard",
   "version": "0.0.0",
   "main": "index.js",
   "license": "MIT",

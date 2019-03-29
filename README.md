@@ -16,3 +16,10 @@ yarn add -D eslint-config-gerard
 ```bash
 eslint --ext .js,.jsx . --fix
 ```
+Remember .eslintignore
+```
+**/node_modules/**
+**/build/**
+**/dist/**
+**/lib/**
+````

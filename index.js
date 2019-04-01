@@ -30,15 +30,21 @@ module.exports = {
   },
   globals: { fixture: true, FS: true },
   rules: {
-    // complexity: ['warn', { max: 7 }],
+    complexity: ['warn', { max: 7 }],
     'filenames/match-regex': ['warn', '^_?[a-z0-9-.]+$'],
     'prettier/prettier': 'error',
     'react-hooks/rules-of-hooks': 'error',
-    'react/jsx-sort-props': 0,
+    "react/no-unsafe": 'warn',
+    'react/jsx-sort-props': 'error',
     'react/display-name': 'warn',
     'react/prop-types': 'warn',
     'react/jsx-no-bind': 0,
     'react/jsx-handler-names': 'warn',
+    'curly': 'error',
+    'no-shadow': 'warn',
+    'no-else-return': 'warn',
+    'no-nested-ternary': 'warn',
+    'no-unneeded-ternary': 'warn',
     'no-unused-vars': [
       'error',
       {

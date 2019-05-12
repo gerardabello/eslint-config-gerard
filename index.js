@@ -32,7 +32,7 @@ module.exports = {
   rules: {
     complexity: ['warn', { max: 7 }],
     'filenames/match-regex': ['warn', '^_?[a-z0-9-.]+$'],
-    'prettier/prettier': 'error',
+    'prettier/prettier': ['error', { jsxSingleQuote: true }],
     'react-hooks/rules-of-hooks': 'error',
     "react/no-unsafe": 'warn',
     'react/display-name': 'warn',

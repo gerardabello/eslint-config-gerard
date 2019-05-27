@@ -7,7 +7,7 @@ module.exports = {
     'prettier/react',
     'prettier-standard'
   ],
-  plugins: ['filenames', 'react', 'prettier', 'react-hooks'],
+  plugins: ['filenames', 'react', 'prettier', 'react-perf', 'react-hooks'],
   settings: {
     react: {
       version: '16'
@@ -32,7 +32,10 @@ module.exports = {
   rules: {
     complexity: ['warn', { max: 7 }],
     'filenames/match-regex': ['warn', '^_?[a-z0-9-.]+$'],
-    'prettier/prettier': ['error', { jsxSingleQuote: true }],
+    'prettier/prettier': 'error',
+    'react-perf/jsx-no-new-object-as-prop': 'warn',
+    'react-perf/jsx-no-new-array-as-prop': 'warn',
+    'react-perf/jsx-no-new-function-as-prop': 'warn',
     'react-hooks/rules-of-hooks': 'error',
     "react/no-unsafe": 'warn',
     'react/display-name': 'warn',

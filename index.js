@@ -30,7 +30,6 @@ module.exports = {
   },
   globals: { fixture: true, FS: true },
   rules: {
-    complexity: 0,
     'filenames/match-regex': ['warn', '^_?[a-z0-9-.]+$'],
     'prettier/prettier': 'error',
     'react-perf/jsx-no-new-object-as-prop': 'warn',

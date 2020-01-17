@@ -1,4 +1,4 @@
-name: PublishV2
+name: Publish
 
 on: [push]
 

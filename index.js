@@ -32,9 +32,9 @@ module.exports = {
   rules: {
     'filenames/match-regex': ['warn', '^_?[a-z0-9-.]+$'],
     'prettier/prettier': 'error',
-    'react-perf/jsx-no-new-object-as-prop': 'warn',
-    'react-perf/jsx-no-new-array-as-prop': 'warn',
-    'react-perf/jsx-no-new-function-as-prop': 'warn',
+    'react-perf/jsx-no-new-object-as-prop': 0,
+    'react-perf/jsx-no-new-array-as-prop': 0,
+    'react-perf/jsx-no-new-function-as-prop': 0,
     'react-hooks/rules-of-hooks': 'error',
     "react/no-unsafe": 'warn',
     'react/display-name': 'warn',

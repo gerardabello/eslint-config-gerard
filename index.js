@@ -46,7 +46,7 @@ module.exports = {
     'react/jsx-key': 'error',
 
     eqeqeq: 'error',
-    consistent-return: 'warn',
+    'consistent-return': 'warn',
     'no-return-await': 'error',
     curly: 'error',
     'no-shadow': 'error',

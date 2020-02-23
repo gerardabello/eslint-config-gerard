@@ -26,7 +26,7 @@ module.exports = {
   rules: {
     'filenames/match-regex': ['warn', '^_?[a-z0-9-.]+$'],
 
-    'import/no-unresolved': 'error',
+    'import/no-unresolved': 'warn',
     'import/named': 'error',
     'import/export': 'error',
     'import/default': 'error',

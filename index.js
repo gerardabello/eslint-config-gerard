@@ -5,7 +5,11 @@ module.exports = {
   settings: {
     react: {
       version: '16'
-    }
+    },
+    "import/extensions": [
+      ".js",
+      ".jsx"
+    ]
   },
   env: {
     browser: true,

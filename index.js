@@ -8,7 +8,10 @@ module.exports = {
     },
     "import/extensions": [
       ".js",
-      ".jsx"
+      ".jsx",
+      ".ts",
+      ".tsx",
+      ".json"
     ]
   },
   env: {

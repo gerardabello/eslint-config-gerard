@@ -43,7 +43,7 @@ module.exports = {
     'react/prop-types': 'off',
     'react/default-props-match-prop-types': 'off',
 
-    eqeqeq: 'error',
+    eqeqeq: ['error', 'ignore'],
     'consistent-return': 'warn',
     'no-return-await': 'error',
     curly: 'error',

@@ -52,7 +52,7 @@ module.exports = {
     'react/jsx-no-duplicate-props': 'error',
     'react/jsx-key': 'error',
 
-    eqeqeq: 'error',
+    eqeqeq: ['error', 'ignore'],
     'consistent-return': 'warn',
     'no-return-await': 'error',
     curly: 'error',

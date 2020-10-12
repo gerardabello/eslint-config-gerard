@@ -38,6 +38,22 @@ module.exports = {
     'import/export': 'error',
     'import/default': 'error',
     'import/no-unused-modules': 'warn',
+    'import/order': [
+      'error',
+      {
+        'newlines-between': 'always',
+        groups: [
+          'external',
+          'builtin',
+          'index',
+          'sibling',
+          'parent',
+          'internal',
+          'object',
+        ],
+      },
+    ],
+
 
     'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
     'react-hooks/exhaustive-deps': 'warn', // Checks effect dependencies

@@ -11,12 +11,20 @@ module.exports = {
     '@typescript-eslint',
     'filenames',
     'react',
-    'react-hooks'
+    'react-hooks',
+    'import',
   ],
   settings: {
     react: {
       version: '16'
-    }
+    },
+    "import/extensions": [
+      ".js",
+      ".jsx",
+      ".ts",
+      ".tsx",
+      ".json"
+    ]
   },
   env: {
     browser: true,
@@ -28,6 +36,22 @@ module.exports = {
   globals: { fixture: true, FS: true },
   rules: {
     'filenames/match-regex': ['warn', '^_?[a-z0-9-.]+$'],
+
+    'import/order': [
+      'error',
+      {
+        'newlines-between': 'always',
+        groups: [
+          'external',
+          'builtin',
+          'index',
+          'sibling',
+          'parent',
+          'internal',
+          'object',
+        ],
+      },
+    ],
 
     'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
     'react-hooks/exhaustive-deps': 'warn', // Checks effect dependencies
